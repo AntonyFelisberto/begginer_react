@@ -1,7 +1,7 @@
 # begginer_react
  
 CREATE APP
-npm create vite@latest
+    npm create vite@latest
 
 COMANDS
     cd my-react-app
