@@ -9,12 +9,16 @@ function Button(){
         border: "none",
         cursor: "pointer"
     }
-    return (
 
+    const item = 11;
+
+    return (
         <>
             <button style={stylesInline} >Click Me INLINE</button>   
+            <button style={{color:'blue',borderTop:"2px soloid red"}} >Click Me INLINE</button>  
             <button className={styles.button} >Click Me MODULE</button>       
             <button className="button">Click Me EXTERNAL</button>   
+            <button className={item ? stylesInline : "none"}>Click Me EXTERNAL</button>   
         </> 
     )
 }
